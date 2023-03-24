@@ -7,9 +7,6 @@
 - Funkce
 - Slovníky
 
-## Na další setkání
-- Zaregistrovat se na Azure (https://azure.microsoft.com/en-us/free/students/).
-
 ## Další zdroje
 - Dokumentace Pythonu - https://www.python.org/doc/
 - https://naucse.python.cz/
