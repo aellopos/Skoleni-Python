@@ -1,84 +1,35 @@
-# Samostatné cvičení 4
+# Samostatné cvičení 5
 
-## 1 - Seznam hodnocení
+## 1 - Vysvědčení
+Vytvoř slovník, který reprezentuje vysvědčení. Klíč slovníku bude název předmětu a hodnota známka z daného předmětu. Pro zjednodušení vlož do slovníku pouze tři předměty (například český jazyk, matematiku a dějepis). Vypiš obsah slovníku pomocí funkce print().
 
-Mějme seznam hodnocení divadelní hry Plyšáci na útěku , který vypadá takto: 
+## 2 - Detektivky
+Vydavatel detektivek si eviduje prodané kusy u jednotlivých knih. V následujícím slovníku najdeš tři knihy a u každé z nich je počet prodaných kusů.
 
-hodnoceni = [7, 9, 6, 7, 9, 8]
+sales = {
+    "Zkus mě chytit": 4165,
+    "Vrah zavolá v deset": 5681,
+    "Zločinný steh": 2565,
+}
 
-- Vytvořte program, který projde tento seznam a vypíše každé hodnocení na nový řádek.
-- Upravte program tak, aby vypisoval výstup v tomto formátu
+- Zkopíruj si slovník do svého programu.
+- Přidej do slovníku nově vydanou detektivku "Noc, která mě zabila", která zatím nebyla uvedena na trh, je tedy prodáno 0 kusů.
+- U knihy "Vrah zavolá v deset" zvyš počet prodaných kusů o 100.
 
-7/10
-9/10
-6/10
-7/10
-9/10
-8/10
+## 3 - Tombola
+V následujícím slovníku jsou uložena čísla lístků tomboly a příslušné výhry.
 
-hesla = [ "xyz101", "punťa", "razor-blade", "1234", "12011986", "martin111", "trhnisi", "hokuspokus", "jeník15", "kristus-te-spasi", "beruška", "strčprstskrzkrk", ]
+tombola = {
+    7: "Láhev kvalitního vína Château Headache",
+    15: "Pytel brambor z místního družstva",
+    23: "Čokoládový dort",
+    47: "Kniha o historii města",
+    55: "Šiška salámu",
+    67: "Vyhlídkový let balónem",
+    79: "Moderní televizor",
+    91: "Roční předplatné městského zpravodaje",
+    93: "Společenská hra Sázky a dostihy",
+}
 
-## 2 - Procházení seznamu
-Založte si program **hesla.py** a na jeho začátek vložte následující kód obsahující seznam hesel pro přihlášení do nějakého systému
-
-hesla = [
-    "xyz101",
-    "punťa",
-    "razor-blade",
-    "1234",
-    "12011986",
-    "martin111",
-    "trhnisi",
-    "hokuspokus",
-    "jeník15",
-    "kristus-te-spasi",
-    "beruška",
-    "strčprstskrzkrk",
-]
-
-- Pomocí cyklu vypište všechny hesla na obrazovku, každé na jeden řádek.
-- Upravte váš program tak, aby vypisoval jen bezpečná hesla, tedy taková, jež jsou delší než 8 znaků.
-
-## 3 - Složitější seznam
-Založte si program **cykly02.py** a použijte v něm následující seznam měsíců v roce, Všimněte si, že je to seznam seznamů.
-
-mesice = [
-    ["leden", 31],
-    ["únor", 28],
-    ["březen", 31],
-    ["duben", 30],
-    ["květen", 31],
-    ["červen", 30],
-    ["červenec", 31],
-    ["srpen", 31],
-    ["září", 30],
-    ["říjen", 31],
-    ["listopad", 30],
-    ["prosinec", 31],
-]
-
-- Pomocí cyklu projděte tento seznam a vypište na výstup názvy jednotlivých měsíců.
-- Pomocí dalšího cyklu vypište na výstup počty dní v jednotlivých měsících.
-
-## 4 - Hry
-Následující seznam obsahuje seznam všech divadelních her, které se hrají v divadle Pěst na oko. Každá hra má svůj název a trvání v minutách.
-
-hry = [
-    ["Ňadro na ňadru na nádru", 180],
-    ["Útok plyšových krokodýlů", 95],
-    ["Cesta do říše zelí", 128],
-    ["Romance na zdymadle", 144],
-    ["Zátiší s mimozemšťanem", 135],
-    ["Čtyři facky a dortík", 100],
-    ["Motorová okurka", 165],
-    ["Johnny Noir", 140],
-    ["Pražská kavárna vrací úder", 130],
-    ["Pět sester ve vratech", 111],
-    ["Stařec a krajta", 187],
-    ["Růžová nemoc", 210],
-    ["Smrt v přímém přenosu", 265],
-]
-
-- Pomocí cyklu projděte tento seznam a vypište na výstup názvy všech her.
-- Vypište na výstup názvy všech her, které trvají více než 120 minut.
-- Vypište na výstup názvy všech her spolu s jejich trváním v hodinách a minutách.
+- Napiš program, který se nejprve zeptá uživatele na číslo jeho lístku. Vstup uživatele si převeď na int!
+- Zkontroluj, zda je číslo lístku ve slovníku. Pokud ne, vypiš text "Bohužel nevyhráváš nic." Pokud číslo ve slovníku je, vypiš uživateli, co vyhrál.
