@@ -4,8 +4,19 @@
 - Podmínky
 - Sekvenční hodnoty
 - Cykly
+
+# Python-1 - outline (druhé setkání)
+
 - Funkce
 - Slovníky
+- Čtení/zápis do txt souborů
+- Čtení/zápis do JSON souborů
+- Objektové Orientované Programování
+
+# Podklady pro druhé setkání
+
+- Čtení/zápis do txt souborů - [mereni.txt]("https://kodim.cz/cms/assets/kurzy/uvod-do-progr-2/uvod-do-programovani-2/soubory/mereni.txt")
+- Čtení/zápis do JSON souborů - [absolventi.json]("https://kodim.cz/cms/assets/kurzy/uvod-do-progr-2/uvod-do-programovani-2/json/absolventi.json") [zavod.json]("https://kodim.cz/cms/assets/kurzy/uvod-do-progr-2/uvod-do-programovani-2/json/zavod.json") (["indexovani"]("https://kodim.cz/cms/assets/kurzy/uvod-do-progr-2/uvod-do-programovani-2/json/Indexovani-Slovnik1.drawio.svg"))
 
 ## Další zdroje
 - Dokumentace Pythonu - https://www.python.org/doc/
