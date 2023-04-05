@@ -7,7 +7,7 @@ Vytvořte textový soubor vykaz.txt, který bude obsahovat 12 řádků a na kaž
 
 # 2 - Počet slov
 
-Stáhněte si odevzdanou [slohovou práci]("https://kodim.cz/cms/assets/kurzy/uvod-do-progr-2/uvod-do-programovani-2/soubory/cteni-souboru/excs%3Epocet-slov/praha.txt"). Zadání bylo sepsat text o nejméně 150ti slovech pojednávající o našem hlavním městě. Napište program, který spočítá počet slov v tomto textu, abychom věděli, zda bylo zadání formálně splněno. Nechte se vést následujícím návodem.
+Stáhněte si odevzdanou slohovou práci ("https://kodim.cz/cms/assets/kurzy/uvod-do-progr-2/uvod-do-programovani-2/soubory/cteni-souboru/excs%3Epocet-slov/praha.txt"). Zadání bylo sepsat text o nejméně 150ti slovech pojednávající o našem hlavním městě. Napište program, který spočítá počet slov v tomto textu, abychom věděli, zda bylo zadání formálně splněno. Nechte se vést následujícím návodem.
 
 - Nechte váš program otevřít soubor a načíst jednotlivé řádky do seznamu
 - Každý řádek převeďte na seznam slov. Slovem se rozumí vše, co je odděleno mezerou nebo novým řádkem
