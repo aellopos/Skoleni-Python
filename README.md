@@ -24,6 +24,7 @@ indexovani - https://kodim.cz/cms/assets/kurzy/uvod-do-progr-2/uvod-do-programov
 - Dokumentace Pythonu - https://www.python.org/doc/
 - https://naucse.python.cz/
 - Scientific Computing with Python - https://www.freecodecamp.org/learn/scientific-computing-with-python/
+- Stahování dat z internetu (JSON) - https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/json/json-api
 
 ## Kontakt
 - michal.kucera@czechitas.cz
